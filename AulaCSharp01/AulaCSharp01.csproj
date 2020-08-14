@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AulaCSharp01.Aula01.Programa</StartupObject>
+    <StartupObject>AulaCSharp01.Aula02._1.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,16 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aula01\Aluno.cs" />
+    <Compile Include="Aula01\Exercicio\Entities\Funcionario.cs" />
+    <Compile Include="Aula01\Exercicio\Program.cs" />
     <Compile Include="Aula01\Professor.cs" />
     <Compile Include="Aula01\Programa.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Aula02\Entities\Pessoa.cs" />
+    <Compile Include="Aula02\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Aula02\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
