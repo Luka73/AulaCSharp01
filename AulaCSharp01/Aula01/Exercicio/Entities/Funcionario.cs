@@ -14,6 +14,23 @@ namespace AulaCSharp01.Aula01.Exercicio.Entities
         public string email;
         public int idade;
 
+        public Funcionario() //construtor default
+        {
+            
+        }
+
+        public Funcionario(string nome) //sobrecarga
+        {
+            this.nome = nome;
+        }
+
+        public Funcionario(string nome, string sobrenome, string email, int idade) 
+        {
+            this.nome = nome;
+            this.sobrenome = sobrenome;
+            this.email = email;
+            this.idade = idade;
+        }
 
         public void MostrarEmail() // criação do método
         {

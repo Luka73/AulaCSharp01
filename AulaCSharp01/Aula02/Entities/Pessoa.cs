@@ -21,7 +21,7 @@ namespace AulaCSharp01.Entities.Aula02
         public double RetornaDezPorcentoDoSalario() //o tipo que ele retorna!
         {
             //double dezPorcento = (salario * 10) / 100;
-            return (salario * 10) / 100;
+            return (salario * 10) / 100.0;
         }
         
         public double RetornaPorcentoDoSalario(double porcento) //parâmetro, argumento, input

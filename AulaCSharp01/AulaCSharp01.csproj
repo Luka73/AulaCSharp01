@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AulaCSharp01.Aula02._1.Program</StartupObject>
+    <StartupObject>AulaCSharp01.Aula03.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,8 @@
     <Compile Include="Aula01\Programa.cs" />
     <Compile Include="Aula02\Entities\Pessoa.cs" />
     <Compile Include="Aula02\Program.cs" />
+    <Compile Include="Aula03\Entities\Conta.cs" />
+    <Compile Include="Aula03\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

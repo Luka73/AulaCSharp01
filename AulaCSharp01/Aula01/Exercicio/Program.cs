@@ -21,6 +21,14 @@ namespace AulaCSharp01.Aula01.Exercicio
             funcionario1.MostraNomeESobrenomeJuntos();
             funcionario1.MostraODobroDaIdade();
 
+            Funcionario funcionario2 = new Funcionario("Maria");
+            funcionario2.email = "maria@gmail.com";
+
+            Funcionario funcionario3 = new Funcionario("Amanda", "Maia", "amamaia@gmail.com", 32);
+            funcionario3.MostraNomeESobrenomeJuntos();
+
+            Console.WriteLine("Nome: " + funcionario2.nome);
+
             Console.ReadKey();
         }
     }
