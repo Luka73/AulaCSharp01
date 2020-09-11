@@ -55,6 +55,11 @@
     <Compile Include="Aula02\Program.cs" />
     <Compile Include="Aula03\Entities\Conta.cs" />
     <Compile Include="Aula03\Program.cs" />
+    <Compile Include="Aula05\Entidades\ContaBancaria.cs" />
+    <Compile Include="Aula05\Entidades\ContaCorrente.cs" />
+    <Compile Include="Aula05\Entidades\ContaPoupanca.cs" />
+    <Compile Include="Aula05\Entidades\Titular.cs" />
+    <Compile Include="Aula05\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
